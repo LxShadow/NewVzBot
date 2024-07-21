@@ -20,49 +20,52 @@ if (!db.data.chats[m.chat].modohorny && m.isGroup) throw `*[❗] Los comandos +1
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
     const document = doc[Math.floor(Math.random() * doc.length)];
     const str = `
- ╭━     ❄ 𝑺𝒉𝒂𝒅𝒐𝒘𝒔 𝑩𝒐𝒕 ❄
- ┃➤
- ┃➤    𝗛ola, ${taguser}
- ┃➤
- ┃➤ 𝐂𝐫𝐞𝐚𝐝𝐨𝐫 : 𝑺𝒉𝒂𝒅𝒐𝒘 ❄
- ┃➤ 𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦 : https://www.instagram.com/shadow.vz/
- ┃➤ Nᴜᴍᴇʀᴏ wa.me/525541081250
- ┃➤ Fᴇᴄʜᴀ : ${date}
- ╰━━━━━━━━━━━━━
+ ╭━     🦔 𝑺𝒉𝒂𝒅𝒐𝒘𝒔 𝑩𝒐𝒕 🦔
+ ┃
+ ┃     𝗛ola, ${taguser}
+ ┃
+ ┃  𝗖𝗿𝗲𝗮𝗱𝗼𝗿 : 𝑺𝒉𝒂𝒅𝒐𝒘.𝑽𝒛 🦔
+ ┃  𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺 : https://www.instagram.com/shadow.vz/
+ ┃  𝗪𝗵𝗮𝘁𝘀𝗮𝗽𝗽 : wa.me/525541081250
+ ┃  𝗙𝗮𝗰𝗲𝗯𝗼𝗼𝗸 : 𝑺𝒉𝒂𝒅𝒐𝒘𝑽𝒏𝒕𝒔
+ ┃  𝗙𝗲𝗰𝗵𝗮 : ${date}
+ ┃
+ ╰━━━━━━━━━━━━
 
- ╭━      ❄ 𝑺𝒉𝒂𝒅𝒐𝒘𝒔 𝑩𝒐𝒕 +𝟏𝟖 ❄ 
- ┃➤ _${usedPrefix}pack_
- ┃➤ _${usedPrefix}pack2_
- ┃➤ _${usedPrefix}pack3_
- ┃➤ _${usedPrefix}videoxxx_
- ┃➤ _${usedPrefix}videolesbixxx_
- ┃➤ _${usedPrefix}tetas_
- ┃➤ _${usedPrefix}booty_ 
- ┃➤ _${usedPrefix}ecchi_
- ┃➤ _${usedPrefix}furro_
- ┃➤ _${usedPrefix}imagenlesbians_
- ┃➤ _${usedPrefix}panties_
- ┃➤ _${usedPrefix}pene_
- ┃➤ _${usedPrefix}porno_
- ┃➤ _${usedPrefix}randomxxx_
- ┃➤ _${usedPrefix}pechos_
- ┃➤ _${usedPrefix}yaoi_
- ┃➤ _${usedPrefix}yaoi2_
- ┃➤ _${usedPrefix}yuri_
- ┃➤ _${usedPrefix}yuri2_
- ┃➤ _${usedPrefix}trapito_
- ┃➤ _${usedPrefix}hentai_
- ┃➤ _${usedPrefix}nsfwloli_
- ┃➤ _${usedPrefix}nsfworgy_
- ┃➤ _${usedPrefix}nsfwfoot_
- ┃➤ _${usedPrefix}nsfwass_
- ┃➤ _${usedPrefix}nsfwbdsm_
- ┃➤ _${usedPrefix}nsfwcum_
- ┃➤ _${usedPrefix}nsfwero_
- ┃➤ _${usedPrefix}nsfwfemdom_
- ┃➤ _${usedPrefix}nsfwglass_
- ┃➤ _${usedPrefix}hentaipdf *<texto>*_
- ┃➤ _${usedPrefix}hentaisearch *<texto>*_
+
+ ╭━      ❄ 𝑺𝒉𝒂𝒅𝒐𝒘𝒔 𝑩𝒐𝒕 𝑴𝒆𝒏𝒖 +𝟏𝟖 ❄ 
+ ┃➤ 🔞 _${usedPrefix}pack_
+ ┃➤ 🔞 _${usedPrefix}pack2_
+ ┃➤ 🔞 _${usedPrefix}pack3_
+ ┃➤ 🔞 _${usedPrefix}videoxxx_
+ ┃➤ 🔞 _${usedPrefix}videolesbixxx_
+ ┃➤ 🔞 _${usedPrefix}tetas_
+ ┃➤ 🔞 _${usedPrefix}booty_
+ ┃➤ 🔞 _${usedPrefix}ecchi_
+ ┃➤ 🔞 _${usedPrefix}furro_
+ ┃➤ 🔞 _${usedPrefix}imagenlesbians_
+ ┃➤ 🔞 _${usedPrefix}panties_
+ ┃➤ 🔞 _${usedPrefix}pene_
+ ┃➤ 🔞 _${usedPrefix}porno_
+ ┃➤ 🔞 _${usedPrefix}randomxxx_
+ ┃➤ 🔞 _${usedPrefix}pechos_
+ ┃➤ 🔞 _${usedPrefix}yaoi_
+ ┃➤ 🔞 _${usedPrefix}yaoi2_
+ ┃➤ 🔞 _${usedPrefix}yuri_
+ ┃➤ 🔞 _${usedPrefix}yuri2_
+ ┃➤ 🔞 _${usedPrefix}trapito_
+ ┃➤ 🔞 _${usedPrefix}hentai_
+ ┃➤ 🔞 _${usedPrefix}nsfwloli_
+ ┃➤ 🔞 _${usedPrefix}nsfworgy_
+ ┃➤ 🔞 _${usedPrefix}nsfwfoot_
+ ┃➤ 🔞 _${usedPrefix}nsfwass_
+ ┃➤ 🔞 _${usedPrefix}nsfwbdsm_
+ ┃➤ 🔞 _${usedPrefix}nsfwcum_
+ ┃➤ 🔞 _${usedPrefix}nsfwero_
+ ┃➤ 🔞 _${usedPrefix}nsfwfemdom_
+ ┃➤ 🔞 _${usedPrefix}nsfwglass_
+ ┃➤ 🔞 _${usedPrefix}hentaipdf *<texto>*_
+ ┃➤ 🔞 _${usedPrefix}hentaisearch *<texto>*_
  ╰━━━━━━━━━ 𝑺𝒉𝒂𝒅𝒐𝒘𝒔 𝑩𝒐𝒕 ━━━━`.trim();
     if (m.isGroup) {
       await conn.sendMessage(m.chat, {image: pp, caption: str.trim(), mentions: [...str.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net')}, {quoted: m});
