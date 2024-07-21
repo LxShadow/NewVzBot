@@ -19,17 +19,22 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
     const document = doc[Math.floor(Math.random() * doc.length)];
     const str = `
- ╭━     ❄ 𝑺𝒉𝒂𝒅𝒐𝒘𝒔 𝑩𝒐𝒕 ❄
- ┃➤
+ ╭━     🦔 𝑺𝒉𝒂𝒅𝒐𝒘𝒔 𝑩𝒐𝒕 🦔
+ ┃
  ┃➤    𝗛ola, ${taguser}
  ┃➤
- ┃➤ 𝐂𝐫𝐞𝐚𝐝𝐨𝐫 : 𝑺𝒉𝒂𝒅𝒐𝒘 ❄
- ┃➤ 𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦 : https://www.instagram.com/shadow.vz/
- ┃➤ Nᴜᴍᴇʀᴏ wa.me/525541081250
- ┃➤ Fᴇᴄʜᴀ : ${date}
- ╰━━━━━━━━━━━━━
+ ┃➤ 𝗖𝗿𝗲𝗮𝗱𝗼𝗿 : 𝑺𝒉𝒂𝒅𝒐𝒘.𝑽𝒛 🦔
+ ┃➤ 𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺 : https://www.instagram.com/shadow.vz/
+ ┃➤ 𝗪𝗵𝗮𝘁𝘀𝗮𝗽𝗽 : wa.me/525541081250
+ ┃➤ 𝗙𝗮𝗰𝗲𝗯𝗼𝗼𝗸 : 𝑺𝒉𝒂𝒅𝒐𝒘𝑽𝒏𝒕𝒔
+ ┃➤ 𝗙𝗲𝗰𝗵𝗮 : ${date}
+ ┃
+ ╰━━━━━━━━━━━━
+ 
 
- ╭━      ❄ 𝑴𝒆𝒏𝒖 𝑨𝒏𝒊𝒎𝒆𝒔 𝑺𝒉𝒂𝒅𝒐𝒘𝒔 𝑩𝒐𝒕 ❄ 
+
+ ╭━      🦔 𝑴𝒆𝒏𝒖 𝑨𝒏𝒊𝒎𝒆𝒔 𝑩𝒚 𝑺𝒉𝒂𝒅𝒐𝒘𝒔 𝑩𝒐𝒕 🦔 
+ ┃
  ┃➤ _${usedPrefix}lolivid_
  ┃➤ _${usedPrefix}loli_
  ┃➤ _${usedPrefix}ppcouple_
